@@ -1,0 +1,97 @@
+{ "chapters": 
+    {
+      "start" : {
+        "text": "Début de l'aventure. Choisissez votre prochaine destination.",
+        "next": [
+          {"id": "tavern", "text": "Vers la taverne"},
+          {"id": "port", "text": "Vers le port"}
+        ]
+      },
+  
+      "tavern" : {
+        "text": "A la taverne, un étrange vieillard vous parle d'une montagne qui cacherait une terrible malédiction. Qu'allez-vous faire ?",
+        "next": [
+          {"id": "port", "text": "Essayer le port"},
+          {"id": "mountain", "text": "Aller à la montagne"}
+        ]
+      },
+  
+      "port" : {
+        "text": "Au port, une belle guerrière veut vous recruter pour explorer une île mystérieuse.",
+        "next": [
+          {"id": "tavern", "text": "Essayer la taverne"},
+          {"id": "island", "text": "Se rendre sur l'île"}
+  
+        ]
+      },
+  
+      "mountain" : {
+        "text": "Au pied de la montagne, vous apercevez deux chemins. L'un part vers le nord et s'enfonce dans la plaine. L'autre grimpe à l'est et mène à une caverne. Quel chemin allez-vous prendre ?",
+        "next": [
+          {"id": "forest", "text": "Nord"},
+          {"id": "cavern", "text": "Est"}
+        ]
+      },
+  
+      "island" : {
+        "text": "Après quelques jours de voyage, vous débarquez sur une île tropicale. Au loin à votre droite, vous voyez une étrange lueur dans les collines. A votre gauche, un sentier disparaît dans une jungle ténébreuse. Quel chemin choisissez-vous ?",
+        "next": [
+          {"id": "island-right", "text": "A droite"},
+          {"id": "island-left", "text": "A gauche"}
+        ]
+      },
+  
+      "island-left" : {
+        "text": "Sur le chemin, vous croisez la route d'un cyclope. Furieux de voir des humains sur ses terres, il s'emparre d'un énorme rocher et le jette sur votre groupe. Vous ne pouvez rien y faire, votre mort sera brutale",
+        "next": [
+          {"id": "death", "text": "Suite"}
+        ]
+      },
+  
+      "island-right" : {
+        "text": "En vous enfonçant dans la jungle, vous constatez rapidement que le lieu est très hostile. Un serpent vous mord soudainement aux pieds. Selon vos compagnons, il ne vous reste que quelques minutes à vivre.",
+        "next": [
+          {"id": "death", "text": "Suite"}
+        ]
+      },
+  
+      "forest" : {
+        "text": "Dans les plaines, vous rejoignez une petite forêt. Malheureusement, des loups vous ont suivi et se mettent à votre poursuite. Vous ne pouvez rien faire contre ces terribles créatures. Votre fin est proche.",
+        "next": [
+          {"id": "death", "text": "Suite"}
+        ]
+      },
+  
+      "cavern" : {
+        "text": "Vous entrez dans une caverne sombre aux paroies recouvertes de toiles d'araignées. A votre droite, une étrange lumière attire votre regard. Sur la gauche, un bruit strident se fait entendre. Où allez-vous ?",
+        "next": [
+          {"id": "cavern-right", "text": "Prendre à droite"},
+          {"id": "cavern-left", "text": "Prendre à gauche"}
+        ]
+      },
+  
+      "cavern-right" : {
+        "text": "Au bout du tunnel, vous apercevez une coupe qui brille de mille feux. C'est le saint Graal des légendes arthuriennes ! La vie éternelle s'offre à vous.",
+        "next": [
+          {"id": "victory", "text": "Suite"}
+        ]
+      },
+  
+      "cavern-left" : {
+        "text": "Une araignée géante vous saute dessus sans que vous ne pouvez rien y faire. Elle vous attrape par la tête et les jambes, vous enroule dans un cocon de soie, et vous pend au plafond. Vous serez son prochain repas.",
+        "next": [
+          {"id": "death", "text": "Suite"}
+        ]
+      },
+  
+      "victory" : {
+        "text": "Vous avez gagné !",
+        "next": []
+      },
+  
+      "death" : {
+        "text": "Vous êtes mort !",
+        "next": []
+      }
+    }
+  }

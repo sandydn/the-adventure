@@ -1,27 +1,230 @@
+html{
+  margin: -1rem;
+  padding: 0rem;
+}
+
 .App {
   text-align: center;
+  margin-top: 2vh;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 3.5em;
+  margin-right: .75em;
+}
+
+.App-header {
+  background-size: cover;
+  min-height: 15vh;
+  padding: .5em 2em;
+  color: rgb(3, 0, 0);
+  display: flex;
+  align-items: center;
+  margin-bottom: 0vh;
+}
+
+.App-character {
+  text-align: center;
+  margin-top: 2vh;
+  height: 100vh;
+  width: 104vw;
+  background-image: url('https://media1.tenor.com/images/78ae5468cf10042197eaa1b721081ec2/tenor.gif?itemid=14454260');
+  background-size: cover;
+}
+
+.App-home {
+  background-image: url('https://images5.alphacoders.com/312/312623.jpg');
+  height: 100vh !important;
+  text-align: center;
+}
+
+.App-form {
+  padding:20px;
+  margin-top: 9vh;
+  color: white;
+  font-size: large;
+}
+
+.App-form.Input {
+  padding:20px;
+}
+
+input {
+  padding: 1em 1.5em;
+  border: none;
+  box-shadow: inset 0 0 1px black;
+  border: 2px;
+  font-size: 1em;
+}
+
+.App-form-group input {
+  border-radius: 2px 0 0 2px;
+  margin-left: 1em;
+}
+
+.App-form-group .App-btn {
+  border-radius: 5 2px 2px 0;
+}
+
+.App-intro {
+  padding: 5%;
+  color: black;
+  font-style: italic;
+  font-size: 3rem;
+}
+
+.App-story {
+  padding-left: 5%;
+  display: flex;
+  margin-top: 22vh;
+  justify-content: space-evenly;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.App-list {
+  justify-items: flex-start;
+}
+
+.App-btn {
+  display: inline-block;
+  margin: 1em 0;
+  padding: 1em 1.5em;
+  font-size: 15px;
+  border-radius: 10px;
+  background: #d4370793;
+  color: white;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.App-btn:active {
+  background: #dd2525
+}
+
+.App-btn:hover {
+  background: #dd2525a8
+}
+
+.App-brand {
+  display: flex;
+  align-items: center;
+}
+
+.App-btn-small {
+  margin: .5em;
+  padding: .6em .75em;
+}
+
+.App-btn-modal {
+  margin: .5em;
+  padding: .6em .75em;
+  background: #222;
+  color: white;
+}
+
+.App-btn-yellow {
+  margin: .5em;
+  background: #f3bb39; 
+}
+
+.App-btn-yellow:hover {
+  background: #de9c03;
+}
+
+.App-game {
+  text-align: center;
+  margin-top: -67vh;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.App-game p {
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.App-image-text {
+  height: 100vh;
+  width: 104vw;
+  background-size: cover;
+}
+
+.start {
+  background-image: url('https://zupimages.net/up/20/06/nk3u.jpg');
+}
+
+.tavern {
+  background-image: url('https://zupimages.net/up/20/06/lzag.jpg');
+}
+
+.port {
+  background-image: url('https://zupimages.net/up/20/06/rdeo.jpg');
+}
+
+.mountain {
+  background-image: url('https://zupimages.net/up/20/06/srr6.jpg');
+}
+
+.island {
+  background-image: url('https://zupimages.net/up/20/06/90ey.jpg');
+}
+
+.island-left {
+  background-image: url('https://zupimages.net/up/20/06/a8zt.jpg');
+}
+
+.island-right {
+  background-image: url('https://zupimages.net/up/20/06/vnee.jpg');
+}
+
+.forest {
+  background-image: url('https://zupimages.net/up/20/06/7onj.jpeg');
+}
+
+.cavern {
+  background-image: url('https://zupimages.net/up/20/06/hqer.jpg');
+}
+
+.cavern-right {
+  background-image: url('https://zupimages.net/up/20/06/fuwe.jpg');
+}
+
+.cavern-left {
+  background-image: url('https://zupimages.net/up/20/06/ik4v.jpg');
+}
+
+.victory {
+  background-image: url('https://zupimages.net/up/20/06/9ekg.jpg');
+}
+
+.death {
+  background-image: url('https://zupimages.net/up/20/06/bd5g.jpg');
+}
+
+.App-stats {
+  font-family: fantasy;
+}
+
+.App-choices .App-btn-yellow {
+  display: inline-flex;
+  align-items: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 5s linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 0vh;
 }
 
 .App-link {
